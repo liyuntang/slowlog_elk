@@ -1,0 +1,131 @@
+# Time: 200113 20:33:19
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935208828
+# Query_time: 1.148821  Lock_time: 0.000143 Rows_sent: 10189  Rows_examined: 1792426
+SET timestamp=1578918799;
+SELECT goods_id, sid, uid, add_time
+FROM kk_trademark_show_collect
+WHERE status = 'wait' and add_time >= 1578659582 order by add_time desc;
+# Time: 200113 20:34:30
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.225]  Id: 8935210654
+# Query_time: 1.888401  Lock_time: 0.000109 Rows_sent: 3495981  Rows_examined: 3495981
+SET timestamp=1578918870;
+select
+              goods_id,
+              size_id,
+              size_sort
+            from kk_product_size_rel;
+# Time: 200113 20:35:04
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211571
+# Query_time: 1.739515  Lock_time: 0.000299 Rows_sent: 5  Rows_examined: 1122220
+SET timestamp=1578918904;
+select * from (
+            select ifnull(t1.cnt, 0) as cnt, t2.id, t2.goods_id, t2.uid, t2.add_time, t2.is_hot_comment, t2.like_num, t2.content 
+            from (select id, goods_id, uid, content, is_hot_comment, like_num, add_time 
+                  from kk_product_comment 
+                  where comment_id=0 and add_time> 1578908102
+                  ) as t2 
+            left join (select comment_id, count(*) as cnt from kk_product_comment 
+                  where comment_id!=0 and status='yes' and update_time >= 1578908102 
+                  group by comment_id) as t1 
+            on t2.id=t1.comment_id) as t
+            where t.cnt >= 3 and t.like_num >= 10
+            order by t.cnt desc, t.like_num desc;
+# Time: 200113 20:35:05
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211595
+# Query_time: 2.297129  Lock_time: 0.000282 Rows_sent: 8  Rows_examined: 1122224
+SET timestamp=1578918905;
+select * from (
+            select ifnull(t1.cnt, 0) as cnt, t2.id, t2.goods_id, t2.uid, t2.add_time, t2.is_hot_comment, t2.like_num, t2.content 
+            from (select id, goods_id, uid, content, is_hot_comment, like_num, add_time 
+                  from kk_product_comment 
+                  where comment_id=0 and add_time> 1578908103
+                  ) as t2 
+            left join (select comment_id, count(*) as cnt from kk_product_comment 
+                  where comment_id!=0 and status='yes' and update_time >= 1578908103 
+                  group by comment_id) as t1 
+            on t2.id=t1.comment_id) as t
+            where t.cnt >= 3
+            order by t.cnt desc, t.like_num desc;
+# Time: 200113 20:35:07
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211628
+# Query_time: 2.789756  Lock_time: 0.000211 Rows_sent: 434  Rows_examined: 1195115
+SET timestamp=1578918907;
+select t1.cnt, t2.id, t2.goods_id, t2.uid, t2.add_time, t2.is_hot_comment, t2.like_num, t2.content 
+            from (select id, goods_id, uid, content, is_hot_comment, like_num, add_time 
+                  from kk_product_comment 
+                  where comment_id=0 and add_time> 1578486904
+                  ) as t2 
+            join (select comment_id, count(*) as cnt from kk_product_comment 
+                  where comment_id!=0 and status='yes' and update_time >= 1578486904 
+                  group by comment_id) t1 
+            on t2.id=t1.comment_id 
+            where t1.cnt > 5 
+            order by t2.add_time desc;
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211643
+# Query_time: 2.569478  Lock_time: 0.000224 Rows_sent: 73  Rows_examined: 1169441
+SET timestamp=1578918907;
+select t1.cnt, t2.id, t2.goods_id, t2.uid, t2.add_time, t2.is_hot_comment, t2.like_num, t2.content 
+            from (select id, goods_id, uid, content, is_hot_comment, like_num, add_time 
+                  from kk_product_comment 
+                  where comment_id=0 and add_time> 1578659705
+                  ) as t2 
+            join (select comment_id, count(*) as cnt from kk_product_comment 
+                  where comment_id!=0 and status='yes' and update_time >= 1578659705 
+                  group by comment_id) t1 
+            on t2.id=t1.comment_id 
+            where t1.cnt > 12 and t2.like_num > 40 
+            order by t2.add_time desc;
+# Time: 200113 20:35:08
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211661
+# Query_time: 2.373673  Lock_time: 0.000228 Rows_sent: 215  Rows_examined: 1138619
+SET timestamp=1578918908;
+select t1.cnt, t2.id, t2.goods_id, t2.uid, t2.add_time, t2.is_hot_comment, t2.like_num, t2.content 
+            from (select id, goods_id, uid, content, is_hot_comment, like_num, add_time 
+                  from kk_product_comment 
+                  where comment_id=0 and add_time> 1578659705
+                  ) as t2 
+            join (select comment_id, count(*) as cnt from kk_product_comment 
+                  where comment_id!=0 and status='yes' and update_time >= 1578832505 
+                  group by comment_id) t1 
+            on t2.id=t1.comment_id 
+            where t1.cnt > 3 
+            order by t1.cnt desc, t2.like_num desc, t2.add_time desc;
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211675
+# Query_time: 2.232119  Lock_time: 0.000252 Rows_sent: 83  Rows_examined: 1138283
+SET timestamp=1578918908;
+select t1.cnt, t2.id, t2.goods_id, t2.uid, t2.add_time, t2.is_hot_comment, t2.like_num, t2.content 
+            from (select id, goods_id, uid, content, is_hot_comment, like_num, add_time 
+                  from kk_product_comment 
+                  where comment_id=0 and add_time> 1578659706
+                  ) as t2 
+            join (select comment_id, count(*) as cnt from kk_product_comment 
+                  where comment_id!=0 and status='yes' and update_time >= 1578832506 
+                  group by comment_id) t1 
+            on t2.id=t1.comment_id 
+            where t1.cnt > 5 and t2.like_num > 30 
+            order by t1.cnt desc, t2.like_num desc, t2.add_time desc;
+# Time: 200113 20:35:15
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211721
+# Query_time: 6.954372  Lock_time: 0.000183 Rows_sent: 50  Rows_examined: 4719479
+SET timestamp=1578918915;
+select t2.goods_id, sum(t1.cnt) as cnt 
+            from kk_product_comment as t2 
+            join (select comment_id, count(*) as cnt 
+                  from kk_product_comment_like 
+                  where status='like' and update_time >= 1578875708 
+                  group by comment_id) t1 
+            on t2.id=t1.comment_id 
+            group by t2.id 
+            order by cnt desc
+            limit 50;
+# Time: 200113 20:35:36
+# User@Host: nice_offline_r[nice_offline_r] @  [10.10.10.226]  Id: 8935211689
+# Query_time: 29.109611  Lock_time: 0.000156 Rows_sent: 50  Rows_examined: 22378347
+SET timestamp=1578918936;
+select a.goods_id, a.cnt 
+            from (select goods_id, count(distinct uid) as cnt 
+                  from kk_product_want 
+                  where update_time >= 1578875707 
+                  group by goods_id) as a 
+            order by a.cnt 
+            desc limit 50;

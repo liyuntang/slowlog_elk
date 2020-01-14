@@ -1,0 +1,139 @@
+[slowlog_elk ]2020/01/13 15:19:44 /Users/nice/go/default/src/slowlog_elk/main.go:31: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 17:08:23 /Users/nice/go/default/src/slowlog_elk/main.go:31: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 17:08:36 /Users/nice/go/default/src/slowlog_elk/main.go:31: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 17:10:18 /Users/nice/go/default/src/slowlog_elk/main.go:31: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 17:10:53 /Users/nice/go/default/src/slowlog_elk/main.go:31: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 17:11:21 /Users/nice/go/default/src/slowlog_elk/main.go:31: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 17:21:12 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 20:40:39 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 20:42:39 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 20:44:30 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 20:45:47 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/13 20:48:05 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 10:22:54 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 10:55:51 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 10:56:39 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:00:27 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:10:42 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:17:32 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:18:43 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:19:21 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:23:00 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:23:30 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:23:30 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:33: len of dataSlice is to short,len is%!(EXTRA int=8, string=dataSlice is, []string=[Query_time 1.148821 Lock_time 0.000143 Rows_sent 10189 Rows_examined 1792426])
+[slowlog_elk ]2020/01/14 11:25:32 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:25:32 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:33: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.148821 Lock_time 0.000143 Rows_sent 10189 Rows_examined 1792426]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.148821 Lock_time 0.000143 Rows_sent 10189 Rows_examined 1792426]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.888401 Lock_time 0.000109 Rows_sent 3495981 Rows_examined 3495981]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.739515 Lock_time 0.000299 Rows_sent 5 Rows_examined 1122220]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.297129 Lock_time 0.000282 Rows_sent 8 Rows_examined 1122224]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.789756 Lock_time 0.000211 Rows_sent 434 Rows_examined 1195115]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.569478 Lock_time 0.000224 Rows_sent 73 Rows_examined 1169441]
+[slowlog_elk ]2020/01/14 11:27:54 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.373673 Lock_time 0.000228 Rows_sent 215 Rows_examined 1138619]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.232119 Lock_time 0.000252 Rows_sent 83 Rows_examined 1138283]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 6.954372 Lock_time 0.000183 Rows_sent 50 Rows_examined 4719479]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 29.109611 Lock_time 0.000156 Rows_sent 50 Rows_examined 22378347]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.457554 Lock_time 0.000261 Rows_sent 0 Rows_examined 1117818]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.422926 Lock_time 0.000210 Rows_sent 0 Rows_examined 1119500]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.419702 Lock_time 0.000395 Rows_sent 2 Rows_examined 1122243]
+[slowlog_elk ]2020/01/14 11:27:55 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.454382 Lock_time 0.000200 Rows_sent 15 Rows_examined 1138056]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.576958 Lock_time 0.000272 Rows_sent 33 Rows_examined 1169321]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.012678 Lock_time 0.000151 Rows_sent 3021 Rows_examined 1785267]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.226226 Lock_time 0.000147 Rows_sent 10185 Rows_examined 1792433]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.764709 Lock_time 0.000068 Rows_sent 3495999 Rows_examined 3495999]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.653315 Lock_time 0.000058 Rows_sent 3495999 Rows_examined 3495999]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.701036 Lock_time 0.000110 Rows_sent 3495999 Rows_examined 3495999]
+[slowlog_elk ]2020/01/14 11:27:56 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.406620 Lock_time 0.000184 Rows_sent 0 Rows_examined 1117647]
+[slowlog_elk ]2020/01/14 11:27:57 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.374255 Lock_time 0.000195 Rows_sent 0 Rows_examined 1119525]
+[slowlog_elk ]2020/01/14 11:27:57 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.431821 Lock_time 0.000194 Rows_sent 2 Rows_examined 1122233]
+[slowlog_elk ]2020/01/14 11:27:57 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.393761 Lock_time 0.000214 Rows_sent 15 Rows_examined 1138074]
+[slowlog_elk ]2020/01/14 11:27:57 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.477837 Lock_time 0.000201 Rows_sent 33 Rows_examined 1169341]
+[slowlog_elk ]2020/01/14 11:27:57 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.061440 Lock_time 0.000149 Rows_sent 672 Rows_examined 1782928]
+[slowlog_elk ]2020/01/14 11:27:57 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.154568 Lock_time 0.000162 Rows_sent 10171 Rows_examined 1792427]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.768303 Lock_time 0.000108 Rows_sent 3495999 Rows_examined 3495999]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.714122 Lock_time 0.000255 Rows_sent 8 Rows_examined 1122268]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.093114 Lock_time 0.000213 Rows_sent 219 Rows_examined 1138708]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.368963 Lock_time 0.000271 Rows_sent 4 Rows_examined 1122264]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 3.144212 Lock_time 0.000231 Rows_sent 73 Rows_examined 1169507]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.878485 Lock_time 0.000264 Rows_sent 437 Rows_examined 1195140]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.442578 Lock_time 0.000241 Rows_sent 84 Rows_examined 1138365]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 7.829311 Lock_time 0.000188 Rows_sent 50 Rows_examined 4719545]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 4.926427 Lock_time 0.000109 Rows_sent 102158 Rows_examined 22368672]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.642995 Lock_time 0.000055 Rows_sent 3495999 Rows_examined 3495999]
+[slowlog_elk ]2020/01/14 11:27:58 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 30.266052 Lock_time 0.000140 Rows_sent 50 Rows_examined 22378640]
+[slowlog_elk ]2020/01/14 11:27:59 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.845530 Lock_time 0.000112 Rows_sent 3495999 Rows_examined 3495999]
+[slowlog_elk ]2020/01/14 11:27:59 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.387701 Lock_time 0.000216 Rows_sent 0 Rows_examined 1117727]
+[slowlog_elk ]2020/01/14 11:27:59 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.369077 Lock_time 0.000201 Rows_sent 0 Rows_examined 1119549]
+[slowlog_elk ]2020/01/14 11:27:59 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.386866 Lock_time 0.000207 Rows_sent 3 Rows_examined 1122243]
+[slowlog_elk ]2020/01/14 11:27:59 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.396611 Lock_time 0.000196 Rows_sent 16 Rows_examined 1138081]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.480932 Lock_time 0.000215 Rows_sent 33 Rows_examined 1169362]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.015608 Lock_time 0.000147 Rows_sent 2973 Rows_examined 1785234]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.204023 Lock_time 0.000238 Rows_sent 10159 Rows_examined 1792420]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.778847 Lock_time 0.000108 Rows_sent 3496028 Rows_examined 3496028]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 4.435724 Lock_time 0.000085 Rows_sent 102157 Rows_examined 22368916]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.784035 Lock_time 0.000116 Rows_sent 3496028 Rows_examined 3496028]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 1.714350 Lock_time 0.000218 Rows_sent 0 Rows_examined 1117689]
+[slowlog_elk ]2020/01/14 11:28:00 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.245035 Lock_time 0.000262 Rows_sent 8 Rows_examined 1122207]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.766748 Lock_time 0.000244 Rows_sent 437 Rows_examined 1195147]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.688909 Lock_time 0.000219 Rows_sent 0 Rows_examined 1119500]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.869131 Lock_time 0.000300 Rows_sent 4 Rows_examined 1122203]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 3.743228 Lock_time 0.000260 Rows_sent 73 Rows_examined 1169524]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 4.519976 Lock_time 0.000261 Rows_sent 220 Rows_examined 1138698]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 3.891949 Lock_time 0.000241 Rows_sent 3 Rows_examined 1122263]
+[slowlog_elk ]2020/01/14 11:28:01 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 3.696048 Lock_time 0.000284 Rows_sent 84 Rows_examined 1138353]
+[slowlog_elk ]2020/01/14 11:28:02 /Users/nice/go/default/src/slowlog_elk/watcher/start.go:52: len of dataSlice is to short,len is 8 dataSlice is [Query_time 2.051970 Lock_time 0.000195 Rows_sent 16 Rows_examined 1138088]
+[slowlog_elk ]2020/01/14 11:29:55 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:33:03 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:33:45 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:34:08 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:35:12 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 11:43:46 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:05:28 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:07:58 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:08:09 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:09:10 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:09:26 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:11:08 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:11:21 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:11:38 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 12:12:42 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:06:05 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:09:20 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:10:18 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:11:39 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:12:45 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:17:29 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:18:35 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:19:10 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:20:43 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:21:51 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:22:56 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:28:58 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:29:42 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:31:36 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:32:37 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:36:15 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:37:20 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:38:22 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:39:26 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:41:10 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:50:00 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 14:55:57 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:20:23 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:21:17 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:22:26 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:23:03 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:23:54 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:24:39 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:24:59 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:25:47 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:26:42 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:28:03 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:33:17 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:36:00 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:41:39 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:47:24 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:48:29 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:50:00 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001
+[slowlog_elk ]2020/01/14 15:52:02 /Users/nice/go/default/src/slowlog_elk/main.go:29: bind address is ok, endport is 0.0.0.0:6001

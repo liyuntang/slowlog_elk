@@ -1,0 +1,16 @@
+[system]
+httpServer = "192.168.73.14:6000"
+endPoint = "0.0.0.0:6001"
+scripts = "/Users/nice/go/default/src/slowlog_elk/scripts/slow.php"
+#slowLog = "/Users/nice/go/default/src/slowlog_elk/data/slowquery.log"
+slowLog = "/Users/nice/go/default/src/slowlog_elk/data/mysql-slow.log"
+logFile = "/Users/nice/go/default/src/slowlog_elk/logs/sl.logs"
+
+[elk]
+endPoint = ["http://10.10.30.96:9200","http://10.10.30.97:9200","http://10.10.30.98:9200","http://10.10.30.97:9900","http://10.10.30.98:9900"]
+index = "test5"
+product = "test"
+cluster = "test"
+role = "test"
+hostName = "test"
+

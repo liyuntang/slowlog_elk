@@ -1,0 +1,1 @@
+php /Users/nice/go/default/src/slowlog_elk/data/slow.php "SELECT uid FROM kk_sale_auto_adjust_record WHERE (is_del = 'no') AND (last_adjust_time < 1578498301) GROUP BY uid LIMIT 200000;"
